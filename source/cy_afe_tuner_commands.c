@@ -314,7 +314,6 @@ static cy_rslt_t config_input_gain(void *context, char** params, int params_cnt)
         if(CY_RSLT_SUCCESS != result)
         {
             cy_afe_log_err(result, "Failed to write input gain from application");
-            result = CY_RSLT_AFE_TUNER_INTERNAL_ERROR;
             goto send_response;
         }
         else
@@ -342,7 +341,6 @@ static cy_rslt_t config_input_gain(void *context, char** params, int params_cnt)
         if(CY_RSLT_SUCCESS != result)
         {
             cy_afe_log_err(result, "Failed to read input gain from application");
-            result = CY_RSLT_AFE_TUNER_INTERNAL_ERROR;
             goto send_response;
         }
         else

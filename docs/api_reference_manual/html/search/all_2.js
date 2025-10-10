@@ -38,9 +38,10 @@ var searchData=
   ['cy_5frslt_5fafe_5ftuner_5fcmd_5fnot_5fsupported_35',['CY_RSLT_AFE_TUNER_CMD_NOT_SUPPORTED',['../group__group__afe__results.html#ga2b4c03317d0d9b8f20a270ab7dc4c6db',1,'cy_audio_front_end_error.h']]],
   ['cy_5frslt_5fafe_5ftuner_5fcomponent_5fnot_5fenabled_36',['CY_RSLT_AFE_TUNER_COMPONENT_NOT_ENABLED',['../group__group__afe__results.html#gad830449263225fd2628205b43106e5c5',1,'cy_audio_front_end_error.h']]],
   ['cy_5frslt_5fafe_5ftuner_5fgeneric_5ferror_37',['CY_RSLT_AFE_TUNER_GENERIC_ERROR',['../group__group__afe__results.html#ga34b48f62fe16300975cc90d3e0b94fee',1,'cy_audio_front_end_error.h']]],
-  ['cy_5frslt_5fafe_5ftuner_5finalid_5fcmd_38',['CY_RSLT_AFE_TUNER_INALID_CMD',['../group__group__afe__results.html#gafc3ada59d049555ad1680133c27c9e54',1,'cy_audio_front_end_error.h']]],
-  ['cy_5frslt_5fafe_5ftuner_5finternal_5ferror_39',['CY_RSLT_AFE_TUNER_INTERNAL_ERROR',['../group__group__afe__results.html#ga1270768460e8b27b50b76b850549e7e9',1,'cy_audio_front_end_error.h']]],
-  ['cy_5frslt_5fafe_5ftuner_5finvalid_5fcmd_5fparams_40',['CY_RSLT_AFE_TUNER_INVALID_CMD_PARAMS',['../group__group__afe__results.html#ga7c0d27205f2f057804499eb53a008565',1,'cy_audio_front_end_error.h']]],
-  ['cy_5frslt_5fafe_5ftuner_5fneed_5fmore_5fdata_41',['CY_RSLT_AFE_TUNER_NEED_MORE_DATA',['../group__group__afe__results.html#gab286b9d7685b9af4be711c04bcef51e3',1,'cy_audio_front_end_error.h']]],
-  ['cy_5frslt_5fafe_5ftuner_5fwait_5ffor_5fpoll_5ftimeout_42',['CY_RSLT_AFE_TUNER_WAIT_FOR_POLL_TIMEOUT',['../group__group__afe__results.html#ga66e8081c8a0968f21c2ffc115d369210',1,'cy_audio_front_end_error.h']]]
+  ['cy_5frslt_5fafe_5ftuner_5fhw_5finput_5fgain_5fout_5fof_5frange_38',['CY_RSLT_AFE_TUNER_HW_INPUT_GAIN_OUT_OF_RANGE',['../group__group__afe__results.html#ga69b542c19ae3f9c0c8975c9ff6042798',1,'cy_audio_front_end_error.h']]],
+  ['cy_5frslt_5fafe_5ftuner_5finalid_5fcmd_39',['CY_RSLT_AFE_TUNER_INALID_CMD',['../group__group__afe__results.html#gafc3ada59d049555ad1680133c27c9e54',1,'cy_audio_front_end_error.h']]],
+  ['cy_5frslt_5fafe_5ftuner_5finternal_5ferror_40',['CY_RSLT_AFE_TUNER_INTERNAL_ERROR',['../group__group__afe__results.html#ga1270768460e8b27b50b76b850549e7e9',1,'cy_audio_front_end_error.h']]],
+  ['cy_5frslt_5fafe_5ftuner_5finvalid_5fcmd_5fparams_41',['CY_RSLT_AFE_TUNER_INVALID_CMD_PARAMS',['../group__group__afe__results.html#ga7c0d27205f2f057804499eb53a008565',1,'cy_audio_front_end_error.h']]],
+  ['cy_5frslt_5fafe_5ftuner_5fneed_5fmore_5fdata_42',['CY_RSLT_AFE_TUNER_NEED_MORE_DATA',['../group__group__afe__results.html#gab286b9d7685b9af4be711c04bcef51e3',1,'cy_audio_front_end_error.h']]],
+  ['cy_5frslt_5fafe_5ftuner_5fwait_5ffor_5fpoll_5ftimeout_43',['CY_RSLT_AFE_TUNER_WAIT_FOR_POLL_TIMEOUT',['../group__group__afe__results.html#ga66e8081c8a0968f21c2ffc115d369210',1,'cy_audio_front_end_error.h']]]
 ];

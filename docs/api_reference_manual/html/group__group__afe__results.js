@@ -16,5 +16,6 @@ var group__group__afe__results =
     [ "CY_RSLT_AFE_TUNER_INVALID_CMD_PARAMS", "group__group__afe__results.html#ga7c0d27205f2f057804499eb53a008565", null ],
     [ "CY_RSLT_AFE_TUNER_COMPONENT_NOT_ENABLED", "group__group__afe__results.html#gad830449263225fd2628205b43106e5c5", null ],
     [ "CY_RSLT_AFE_TUNER_CMD_NOT_SUPPORTED", "group__group__afe__results.html#ga2b4c03317d0d9b8f20a270ab7dc4c6db", null ],
-    [ "CY_RSLT_AFE_FUNCTIONALITY_RESTRICTED", "group__group__afe__results.html#ga2818445af733d5322c94ada20a010c94", null ]
+    [ "CY_RSLT_AFE_FUNCTIONALITY_RESTRICTED", "group__group__afe__results.html#ga2818445af733d5322c94ada20a010c94", null ],
+    [ "CY_RSLT_AFE_TUNER_HW_INPUT_GAIN_OUT_OF_RANGE", "group__group__afe__results.html#ga69b542c19ae3f9c0c8975c9ff6042798", null ]
 ];

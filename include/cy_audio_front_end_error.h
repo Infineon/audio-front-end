@@ -116,6 +116,8 @@ extern "C" {
 #define CY_RSLT_AFE_TUNER_CMD_NOT_SUPPORTED      ( CY_RSLT_AFE_ERR_BASE + 15 )
 /** Audio front end functionality restricted */
 #define CY_RSLT_AFE_FUNCTIONALITY_RESTRICTED      ( CY_RSLT_AFE_ERR_BASE + 16 )
+/** Audio front end hw input gain out of range */
+#define CY_RSLT_AFE_TUNER_HW_INPUT_GAIN_OUT_OF_RANGE    ( CY_RSLT_AFE_ERR_BASE + 17 )
 
 /** \} group_afe_macros */
 #ifdef __cplusplus

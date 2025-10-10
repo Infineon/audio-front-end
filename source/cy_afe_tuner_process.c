@@ -82,7 +82,7 @@ static cy_rslt_t afe_process_tuner_command_req(afe_internal_context_t* context, 
 /******************************************************
  *               Functions
  ******************************************************/
-
+static uint8_t error_buf[32];
 /**
  * Get corresponding string for the result to send it to configurator tool
  */
@@ -125,6 +125,14 @@ const char* get_status_string_from_result(cy_rslt_t result)
         case CY_RSLT_AFE_TUNER_CMD_NOT_SUPPORTED:
         {
             str = "not_supported";
+        }
+        break;
+        case CY_RSLT_AFE_TUNER_HW_INPUT_GAIN_OUT_OF_RANGE:
+        {
+            int32_t min_range= AFE_MIN_MIC_INPUT_HW_GAIN * 2;
+            int32_t max_range=  AFE_MAX_MIC_INPUT_HW_GAIN * 2;
+            snprintf((char*)error_buf, sizeof(error_buf), "error,%"PRIi32",%"PRIi32, min_range, max_range);
+            str = (char*)error_buf;
         }
         break;
         default:

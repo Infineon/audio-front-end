@@ -76,6 +76,23 @@ extern "C" {
  * Audio Sample data bit-width is 16bit.
  */
 #define CY_AFE_DATA_T int16_t
+
+/**
+ * Minimum mic input hardware gain value.
+  * Based on hardware, application can override this value in the Makefile.
+ */
+#ifndef AFE_MIN_MIC_INPUT_HW_GAIN
+    #define AFE_MIN_MIC_INPUT_HW_GAIN -105
+#endif
+
+/**
+ * Maximum mic input hardware gain value.
+  * Based on hardware, application can override this value in the Makefile.
+ */
+#ifndef AFE_MAX_MIC_INPUT_HW_GAIN
+    #define AFE_MAX_MIC_INPUT_HW_GAIN 105
+#endif
+
 #endif
 
 /** \} group_afe_macros */
